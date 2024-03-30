@@ -28,7 +28,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 ```
 
-2.Write a python program that uses the random forest algorithm from the sklearn library to classify the iris dataset. [Note: load the iris data set from sklearn]
+2. Write a python program that uses the random forest algorithm from the sklearn library to classify the iris dataset. [Note: load the iris data set from sklearn]
 ```
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -57,7 +57,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
 ```
-3.Build simple Neural Network model, by creating the own dataset using numpy library and evaluate the performance of the model on new test data
+3. Build simple Neural Network model, by creating the own dataset using numpy library and evaluate the performance of the model on new test data
 ```
 import numpy as np
 import tensorflow as tf
@@ -98,7 +98,7 @@ y_pred = (model.predict(X_test) > 0.5).astype("int32")
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 ```
-4.Write a python program to build the Linear Regression model. Calculate MSE and R-Squared value and Plot the actual and predicted values. 
+4. Write a python program to build the Linear Regression model. Calculate MSE and R-Squared value and Plot the actual and predicted values. 
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -140,7 +140,7 @@ plt.title('Actual vs Predicted values')
 plt.legend()
 plt.show()
 ```
-5.Implement k-Nearest Neighbor algorithm to classify the Iris Dataset.
+5. Implement k-Nearest Neighbor algorithm to classify the Iris Dataset.
 ```
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -168,7 +168,7 @@ y_pred = knn.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 ```
-6.Write a python program to build the SVM classifier model to classify whether a fruit is orange or mango. 
+6. Write a python program to build the SVM classifier model to classify whether a fruit is orange or mango. 
 ```
 import numpy as np
 from sklearn.svm import SVC
@@ -201,7 +201,7 @@ train_accuracy = accuracy_score(y, svm_classifier.predict(X))
 print("Accuracy on training data:", train_accuracy)
 ```
 
-7.Build deep learning Neural Network model by creating two hidden layers and check the accuracy of prediction.
+7. Build deep learning Neural Network model by creating two hidden layers and check the accuracy of prediction.
 ```
 import numpy as np
 import tensorflow as tf
@@ -243,7 +243,7 @@ y_pred = (model.predict(X_test) > 0.5).astype("int32")
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 ```
-8.Write a python program to use naive Bayes model to predict whether a person will buy_computer or not. Also display the accuracy of prediction. 
+8. Write a python program to use naive Bayes model to predict whether a person will buy_computer or not. Also display the accuracy of prediction. 
 ```
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -285,7 +285,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 ```
 
-9.Implement BFS and DFS
+9. Implement BFS and DFS
 ```
 from collections import deque
 
