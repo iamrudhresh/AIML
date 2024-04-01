@@ -1,6 +1,6 @@
 1. Write a python program that uses the decision tree algorithm from the sklearn library to classify the iris dataset. [Note: load the iris data set from sklearn]
 
-```
+```py
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
@@ -29,7 +29,7 @@ print("Accuracy:", accuracy)
 ```
 
 2. Write a python program that uses the random forest algorithm from the sklearn library to classify the iris dataset. [Note: load the iris data set from sklearn]
-```
+```py
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -58,7 +58,7 @@ print("Accuracy:", accuracy)
 
 ```
 3. Build simple Neural Network model, by creating the own dataset using numpy library and evaluate the performance of the model on new test data
-```
+```py
 import numpy as np
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
@@ -99,7 +99,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 ```
 4. Write a python program to build the Linear Regression model. Calculate MSE and R-Squared value and Plot the actual and predicted values. 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -141,7 +141,7 @@ plt.legend()
 plt.show()
 ```
 5. Implement k-Nearest Neighbor algorithm to classify the Iris Dataset.
-```
+```py
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
@@ -169,7 +169,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 ```
 6. Write a python program to build the SVM classifier model to classify whether a fruit is orange or mango. 
-```
+```py
 import numpy as np
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
@@ -202,7 +202,7 @@ print("Accuracy on training data:", train_accuracy)
 ```
 
 7. Build deep learning Neural Network model by creating two hidden layers and check the accuracy of prediction.
-```
+```py
 import numpy as np
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
@@ -244,7 +244,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 ```
 8. Write a python program to use naive Bayes model to predict whether a person will buy_computer or not. Also display the accuracy of prediction. 
-```
+```py
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
@@ -286,7 +286,7 @@ print("Accuracy:", accuracy)
 ```
 
 9. Implement BFS and DFS
-```
+```py
 from collections import deque
 
 class Graph:
@@ -347,7 +347,7 @@ iii) Append the new car_data to the existing data frame.
 iv) Update any of the data in data frame.
 v) Store the data frame to the csv file.
 vi) Reading a csv file and storing in a another dataframe and display it.
-```
+```py
 import pandas as pd
 
 # i) Create a pandas data frame for the string “He is a good person” and display the dataframe.
@@ -409,7 +409,7 @@ ii) Create a 1-D array named profit with set of values. Similarly Create another
 iii) Use matplotlib library to plot a graph by taking any random set of values for x & y.
 iv) Reading any csv file and storing in a dataframe
 v) Use matplotlib library to plot a scatter plot with two different classes specifying different color for classes.
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -467,7 +467,7 @@ ii) Add an additional column calories_remining and calculate it and display[Note
 iii) Display calories_consumed and  calories_burnt daywise. Here, The days should not be a separate column. Days should act as a index to the dataframe.   
 iv) Store the data frame to the csv file.
 v)  Display the pandas version.
-```
+```py
 import pandas as pd
 
 # i) Create a pandas data frame for calories_data which displays the list of calories_consumed and  calories_burnt daywise.
